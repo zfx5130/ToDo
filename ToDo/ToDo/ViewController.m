@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AgentRegisterViewController.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)toDo:(UIButton *)sender {
+    AgentRegisterViewController *agentViewController = [[AgentRegisterViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:agentViewController];
+    [self presentViewController:navigationController animated:YES completion:nil];
 }
 
 @end

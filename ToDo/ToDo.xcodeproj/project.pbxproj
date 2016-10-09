@@ -15,6 +15,8 @@
 		CE4BFAA21DAA885200AD8716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4BFAA01DAA885200AD8716 /* LaunchScreen.storyboard */; };
 		CE4BFAAD1DAA885200AD8716 /* ToDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4BFAAC1DAA885200AD8716 /* ToDoTests.m */; };
 		CE4BFAB81DAA885200AD8716 /* ToDoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4BFAB71DAA885200AD8716 /* ToDoUITests.m */; };
+		CE4BFAC91DAA8C9D00AD8716 /* AgentRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4BFAC71DAA8C9D00AD8716 /* AgentRegisterViewController.m */; };
+		CE4BFACA1DAA8C9D00AD8716 /* AgentRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4BFAC81DAA8C9D00AD8716 /* AgentRegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		CE4BFAB31DAA885200AD8716 /* ToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4BFAB71DAA885200AD8716 /* ToDoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoUITests.m; sourceTree = "<group>"; };
 		CE4BFAB91DAA885200AD8716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE4BFAC61DAA8C9D00AD8716 /* AgentRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentRegisterViewController.h; sourceTree = "<group>"; };
+		CE4BFAC71DAA8C9D00AD8716 /* AgentRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentRegisterViewController.m; sourceTree = "<group>"; };
+		CE4BFAC81DAA8C9D00AD8716 /* AgentRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgentRegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,7 @@
 		CE4BFA911DAA885200AD8716 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				CE4BFAC51DAA8C0000AD8716 /* ToDoController */,
 				CE4BFA951DAA885200AD8716 /* AppDelegate.h */,
 				CE4BFA961DAA885200AD8716 /* AppDelegate.m */,
 				CE4BFA981DAA885200AD8716 /* ViewController.h */,
@@ -138,6 +144,16 @@
 				CE4BFAB91DAA885200AD8716 /* Info.plist */,
 			);
 			path = ToDoUITests;
+			sourceTree = "<group>";
+		};
+		CE4BFAC51DAA8C0000AD8716 /* ToDoController */ = {
+			isa = PBXGroup;
+			children = (
+				CE4BFAC61DAA8C9D00AD8716 /* AgentRegisterViewController.h */,
+				CE4BFAC71DAA8C9D00AD8716 /* AgentRegisterViewController.m */,
+				CE4BFAC81DAA8C9D00AD8716 /* AgentRegisterViewController.xib */,
+			);
+			path = ToDoController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +262,7 @@
 				CE4BFAA21DAA885200AD8716 /* LaunchScreen.storyboard in Resources */,
 				CE4BFA9F1DAA885200AD8716 /* Assets.xcassets in Resources */,
 				CE4BFA9D1DAA885200AD8716 /* Main.storyboard in Resources */,
+				CE4BFACA1DAA8C9D00AD8716 /* AgentRegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +290,7 @@
 				CE4BFA9A1DAA885200AD8716 /* ViewController.m in Sources */,
 				CE4BFA971DAA885200AD8716 /* AppDelegate.m in Sources */,
 				CE4BFA941DAA885200AD8716 /* main.m in Sources */,
+				CE4BFAC91DAA8C9D00AD8716 /* AgentRegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ToDo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thomas.ToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ToDo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = thomas.ToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
