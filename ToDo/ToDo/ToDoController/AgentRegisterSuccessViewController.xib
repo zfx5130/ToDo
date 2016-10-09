@@ -64,11 +64,11 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text=" 失败原因：XXXX" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1XS-49-Tey">
-                    <rect key="frame" x="62" y="260" width="250" height="150"/>
+                    <rect key="frame" x="87" y="260" width="200" height="150"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="150" id="piT-bo-LMJ"/>
-                        <constraint firstAttribute="width" constant="250" id="sht-G9-1cZ"/>
+                        <constraint firstAttribute="width" constant="200" id="sht-G9-1cZ"/>
                     </constraints>
                     <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
