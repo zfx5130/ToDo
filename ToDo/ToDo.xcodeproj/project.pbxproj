@@ -17,6 +17,8 @@
 		CE4BFAB81DAA885200AD8716 /* ToDoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4BFAB71DAA885200AD8716 /* ToDoUITests.m */; };
 		CE4BFAC91DAA8C9D00AD8716 /* AgentRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4BFAC71DAA8C9D00AD8716 /* AgentRegisterViewController.m */; };
 		CE4BFACA1DAA8C9D00AD8716 /* AgentRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4BFAC81DAA8C9D00AD8716 /* AgentRegisterViewController.xib */; };
+		CE4BFACE1DAA9D9500AD8716 /* AgentRegisterSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4BFACC1DAA9D9500AD8716 /* AgentRegisterSuccessViewController.m */; };
+		CE4BFACF1DAA9D9500AD8716 /* AgentRegisterSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE4BFACD1DAA9D9500AD8716 /* AgentRegisterSuccessViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		CE4BFAC61DAA8C9D00AD8716 /* AgentRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentRegisterViewController.h; sourceTree = "<group>"; };
 		CE4BFAC71DAA8C9D00AD8716 /* AgentRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentRegisterViewController.m; sourceTree = "<group>"; };
 		CE4BFAC81DAA8C9D00AD8716 /* AgentRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgentRegisterViewController.xib; sourceTree = "<group>"; };
+		CE4BFACB1DAA9D9500AD8716 /* AgentRegisterSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentRegisterSuccessViewController.h; sourceTree = "<group>"; };
+		CE4BFACC1DAA9D9500AD8716 /* AgentRegisterSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentRegisterSuccessViewController.m; sourceTree = "<group>"; };
+		CE4BFACD1DAA9D9500AD8716 /* AgentRegisterSuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgentRegisterSuccessViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +157,9 @@
 				CE4BFAC61DAA8C9D00AD8716 /* AgentRegisterViewController.h */,
 				CE4BFAC71DAA8C9D00AD8716 /* AgentRegisterViewController.m */,
 				CE4BFAC81DAA8C9D00AD8716 /* AgentRegisterViewController.xib */,
+				CE4BFACB1DAA9D9500AD8716 /* AgentRegisterSuccessViewController.h */,
+				CE4BFACC1DAA9D9500AD8716 /* AgentRegisterSuccessViewController.m */,
+				CE4BFACD1DAA9D9500AD8716 /* AgentRegisterSuccessViewController.xib */,
 			);
 			path = ToDoController;
 			sourceTree = "<group>";
@@ -260,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4BFAA21DAA885200AD8716 /* LaunchScreen.storyboard in Resources */,
+				CE4BFACF1DAA9D9500AD8716 /* AgentRegisterSuccessViewController.xib in Resources */,
 				CE4BFA9F1DAA885200AD8716 /* Assets.xcassets in Resources */,
 				CE4BFA9D1DAA885200AD8716 /* Main.storyboard in Resources */,
 				CE4BFACA1DAA8C9D00AD8716 /* AgentRegisterViewController.xib in Resources */,
@@ -287,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4BFACE1DAA9D9500AD8716 /* AgentRegisterSuccessViewController.m in Sources */,
 				CE4BFA9A1DAA885200AD8716 /* ViewController.m in Sources */,
 				CE4BFA971DAA885200AD8716 /* AppDelegate.m in Sources */,
 				CE4BFA941DAA885200AD8716 /* main.m in Sources */,
